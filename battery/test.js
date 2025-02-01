@@ -14,7 +14,7 @@ const capabilities = {
 const wdOpts = {
   host: process.env.APPIUM_HOST || 'localhost',
   port: parseInt(process.env.APPIUM_PORT, 10) || 4723,
-  // Run Appium on port 4724 instead of the default 4723 by doing [appium --port 4724]
+  // Can run Appium on port 4724 instead of the default 4723 by doing [appium --port 4724]
   // port: parseInt(process.env.APPIUM_PORT, 10) || 4724,
   logLevel: 'info',
   capabilities,
